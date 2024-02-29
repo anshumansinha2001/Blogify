@@ -2,10 +2,22 @@
 <html lang="en">
   <head>
     <%- include('./partials/head') %>
-    <title>Homepage</title>
+    <title>Blogify</title>
   </head>
   <body>
     <%- include('./partials/nav') %>
+
+    <figure class="text-center mt-5">
+      <blockquote class="blockquote">
+        <p>
+          Every great developer you know got there by solving problems they were
+          unqualified to solve until they actually did it.
+        </p>
+      </blockquote>
+      <figcaption class="blockquote-footer">
+        Patrick McKenzie <cite title="Source Title">, internet</cite>
+      </figcaption>
+    </figure>
 
     <div class="container mt-5">
       <div class="row">
@@ -31,7 +43,6 @@
         <% }) %>
       </div>
     </div>
-
-    <%- include('./partials/scripts') %>
+    <%- include('./partials/footer') %> <%- include('./partials/scripts') %>
   </body>
 </html>
