@@ -14,7 +14,7 @@ const {
 const Blog = require("./models/blog-model");
 
 const app = express();
-const PORT = process.env.PORT;
+const PORT = process.env.PORT || 8000;
 
 // DB Connection
 mongoose
